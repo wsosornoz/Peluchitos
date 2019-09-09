@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Periwinkle">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_buscar"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="33sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:id="@+id/bbnombre"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/Purple_Mimosa"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/b_buscar"
+        android:hint="@string/st_buscar"
+        android:background="@color/Plum_Purple"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txbresult"/>
+</LinearLayout>

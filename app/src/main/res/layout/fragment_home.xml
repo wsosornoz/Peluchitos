@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/Periwinkle">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/st_agregar"
+        android:id="@+id/tx_agregar"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="33sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/id"
+        android:id="@+id/ehid"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/Purple_Mimosa"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:id="@+id/ehnombre"
+        android:textColorHint="@color/Purple_Mimosa"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cantidad"
+        android:id="@+id/ehcantidad"
+        android:inputType="number"
+        android:textColorHint="@color/Purple_Mimosa"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/precio"
+        android:id="@+id/ehprecio"
+        android:textSize="25sp"
+        android:textColorHint="@color/Purple_Mimosa"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/bAgregar"
+        android:hint="@string/st_agregar"
+        android:textStyle="bold"
+        android:background="@color/Plum_Purple"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="@color/White"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_hresult"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/Red"
+        android:textSize="33sp"/>
+
+</LinearLayout>
